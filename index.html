@@ -10,22 +10,66 @@
     <div class="container">
         <img src="beach background.jpg" alt="" id="beach">
         <div class="left">
-            <div id="">
-                <h2>Logo</h2>
-                <img src="odin logo.png" alt="" id="logo">
+            <div id="logo">
+                <img src="odin logo.png" alt="">
+            </div>
+            <div id="leftContainer">
+                <p>hi</p>
             </div>
         </div>
         <div class="right">
             <div class="sideContainer">
                 <h1>Sign-ups</h1>
-                <h2>Sign up for the diddy party here</h2>
-                <h3>Starts at 12pm all ages included and whatever</h3>
+                <h2>Sign up for the  party here</h2>
+                <h3>Starts at 12pm  and whatever</h3>
             </div>
             <div class="sideContainer" id="middle">
-                <h4>Lets do this</h4>
+                <h3>Lets do this</h3>
+                <div>
+                    <form action="example.com/path" style="margin-right: 200px;">
+                        <div style="display: flex;">
+                            <div class="formContainer">
+                                <label for="first_name">First Name:</label>
+                                <input type="text" id="first_name">
+                            </div>
+                            
+                            <div class="formContainer">
+                                <label for="last_name">Last Name:</label>
+                                <input type="text" id="last_name">
+                            </div>
+                        </div>
+
+                        <div style="display: flex; margin-top: 20px;">
+                            <div class="formContainer">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email">
+                            </div>
+                            
+                            <div class="formContainer">
+                                <label for="phone_number">Phone Number:</label>
+                                <input type="number" id="phone_number" minlength="10">
+                            </div>
+                        </div>
+
+                        <div style="display: flex; margin-top: 20px;">
+                            <div class="formContainer">
+                                <label for="password">Password:</label>
+                                <input type="password" id="password">
+                            </div>
+                            
+                            <div class="formContainer">
+                                <label for="confirm_password">Confirm Password:</label>
+                                <input type="password" id="confirm_password">
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
             <div class="sideContainer">
-                <h1>HI AGAIN</h1>
+                <div id="submitContainer">
+                    <button type="submit">Create Account</button>
+                </div>
+                <h4 style="display: flex; margin-left: 45px; margin-top: 10px;">Already have an account? <a href="">Log in</a></h4>
             </div>
         </div>
     </div>
